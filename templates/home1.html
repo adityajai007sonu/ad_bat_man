@@ -1,0 +1,26 @@
+<ion-view view-title="Batman: The Killing Joke">
+  <ion-content>
+	  <div class="card">
+  <div class="item item-text-wrap">
+<p> Batman: The Killing Joke is an influential one-shot superhero comic book written by Alan Moore and drawn by Brian Bolland, published by DC Comics in 1988. It has in its original form continuously been held in print since then. It has also been reprinted as part of the DC Universe: The Stories of Alan Moore-trade paperback.
+<br>
+In 2008 it was reprinted in a deluxe hardcover edition. This Deluxe Edition features new coloring by Brian Bolland, meant to illustrate his original intentions for the book, with more somber, realistic, and subdued colors than the intensely-colored original. The reprint also included the story An Innocent Guy, which had earlier been included in Batman Black and White series of comics.<br></p> 
+  </div>
+</div>
+	  
+	  
+    <ul class="cate-lv1">
+            <li>
+            <a class="item-background cate-lv1-item" ng-repeat="category in categories" href="#/app/listing/{{category.id}}"
+            style="background: url(img/category/{{category.img}}) no-repeat; background-size: cover;">
+                <div class="item-wrapper">
+                    <h2>{{category.title}}</h2>
+                   
+                </div>
+            </a>
+            </li>
+        </ul>
+  </ion-content>
+</ion-view>
+
+
